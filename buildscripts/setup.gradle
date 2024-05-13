@@ -3,15 +3,15 @@ def renameConfig = [
         templateAppId               : "template.app.id",
         templateMaterialThemeName   : "TemplateTheme",
         templateApplicationClassName: "TemplateApp",
-        newPackage                  : "domain.yourname.app",
-        newProjectName              : "Your Project",
-        newMaterialThemeName        : "MyMaterialTheme",
-        newApplicationClassName     : "MyApp",
-        useHiltDependencies         : true,
+        newPackage                  : "aleksejb.fit.on.track",
+        newProjectName              : "Fit on Track",
+        newMaterialThemeName        : "FitOnTrackTheme",
+        newApplicationClassName     : "FitOnTrackApplication",
+        useHiltDependencies         : false,
         useRoomDependencies         : true,
         useRetrofitDependencies     : true,
-        usePaparazziDependencies    : true,
-        useRenovateDependencies     : true,
+        usePaparazziDependencies    : false,
+        useRenovateDependencies     : false,
 ]
 
 task deleteSetupCode() {
