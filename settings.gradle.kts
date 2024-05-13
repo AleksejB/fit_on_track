@@ -5,5 +5,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "template"
+rootProject.name = "Fit on Track"
 include(":app")

@@ -7,9 +7,8 @@ composeBom = "2024.05.00"
 composeCompiler = "1.5.12"
 detektGradlePlugin = "1.23.6"
 espresso = "3.5.1"
-gradle = "8.4.0"
+gradle = "8.3.0"
 gradleVersionsPlugin = "0.51.0"
-hilt = "2.51.1"
 junit = "4.13.2"
 kotlinGradlePlugin = "1.9.23"
 kotlinter = "4.3.0"
@@ -20,7 +19,6 @@ lifecycle = "2.7.0"
 material = "1.12.0"
 minSdk = "21"
 moshi = "1.15.1"
-paparazzi = "1.3.3"
 retrofit = "2.11.0"
 room = "2.6.1"
 sortDependencies = "0.6"
@@ -47,10 +45,6 @@ compose-ui-util = { group = "androidx.compose.ui", name = "ui-util" }
 detekt-gradle-plugin = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detektGradlePlugin" }
 gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 gradle-versions-plugin = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "gradleVersionsPlugin" }
-hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
-hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
-hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt" }
-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
 junit = { module = "junit:junit", version.ref = "junit" }
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
 square-leakcanary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakCanary" }
